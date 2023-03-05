@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header CSS */
+
+body header {
+    height: 10%;
+    width: 100%;
+}
+
+body header .container {
+    width: 140px;
+    margin : 10px 15px 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body header .container a {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+body header .container img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* Main CSS */
+
+body main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container img {
+    margin-top: 90px;
+}
+
+main .container .searchInput input {
+    width: 500px;
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid #e8eaed;
+    margin-top: 16px;
+}
+
+main .containerBtn button {
+    box-shadow: 0 1px 3px rgb(black / 24%);
+    border : 1px solid #e8eaed;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    margin-top: 16px;
+}
+
+/* Footer CSS */
+
+body footer {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #e8eaed;
+    margin-top: auto;
+}
